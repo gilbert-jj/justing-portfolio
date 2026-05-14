@@ -81,8 +81,8 @@ className="rounded-full bg-black px-8 py-4 text-lg font-medium text-white transi
   </a>
 
 <a
-    href="https://www.linkedin.com/in/justin-gilbert-b94a38214/"
-    target="_blank"
+    href="/J.Gilbert_Resume_2026_NEW.pdf" download
+      target="_blank"
 className="rounded-full border border-zinc-300 bg-white/70 px-8 py-4 text-lg font-medium text-zinc-800 transition hover:bg-white">
     My Resume
   </a>
