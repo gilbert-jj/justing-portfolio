@@ -40,15 +40,29 @@ className="min-h-screen bg-cover bg-right bg-no-repeat bg-zinc-100"  style={{
            <div className="mt-2 h-[2px] w-80 bg-black rounded-full" />
            <h2 className= "text-2xl font-semibold mt-16 mb-4">
             About Me: </h2>
-            <p className="max-w-2xl text-xl leading-9 text-zinc-700">
-             Motivated Computer Science graduate with experience in software development, tutoring, and collaborative problem solving. Strong foundation in programming, modern development tools, and AI-assisted workflows, with a proven ability to balance rigorous academics and collegiate athletics.
+            <p className="max-w-2xl text-xl leading-9 text-zinc-900 font-medium">
+             <span className= "bg-white/15 rounded-md">
+            Motivated Computer Science graduate with experience in software development, tutoring, and collaborative problem solving. Strong foundation in programming, modern development tools, and AI-assisted workflows, with a proven ability to balance rigorous academics and collegiate athletics.
+             </span>
             </p>
             <h2 className= "text-2xl font-semibold mt-16 mb-4">
             Passions: </h2>
-            <ul className="max-w-2xl text-xl leading-9 text-zinc-700">
-  <li>Modern programming and web development</li>
-  <li>How AI can transform technical workspaces and production</li>
-  <li>The advancement of code development processes</li>
+            <ul className="max-w-2xl text-xl leading-9 text-zinc-900 font-medium">
+            <li>
+            <span className="bg-white/15 rounded-md">
+  Modern programming and web development
+  </span>
+  </li>
+  <li>
+     <span className="bg-white/15 rounded-md">
+    How AI can transform technical workspaces and production
+    </span>
+    </li>
+  <li>
+    <span className="bg-white/15 rounded-md">
+    The advancement of code development processes
+    </span>
+    </li>
 </ul>
             </div>
           <div className="flex gap-4 mt-16">

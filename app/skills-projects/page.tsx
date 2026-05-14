@@ -83,10 +83,10 @@ export default function SkillsProjects() {
 
                 <ul className="mt-8 space-y-4 text-xl text-zinc-300">
                   <li>Java</li>
-                  <li>Python</li>
                   <li>C++</li>
+                  <li>Python</li>
                   <li>JavaScript</li>
-                  <li>SQL</li>
+                  <li>C#</li>
                 </ul>
               </div>
 
@@ -118,9 +118,9 @@ export default function SkillsProjects() {
                 <ul className="mt-8 space-y-4 text-xl text-zinc-300">
                   <li>Git & GitHub</li>
                   <li>VS Code</li>
-                  <li>Postman</li>
-                  <li>Docker</li>
-                  <li>Figma</li>
+                  <li>MS Office</li>
+                  <li>Firebase</li>
+                  <li>AutoCad</li>
                 </ul>
               </div>
 
@@ -133,12 +133,12 @@ export default function SkillsProjects() {
                 <div className="mt-4 h-[2px] w-16 bg-white/40" />
 
                 <ul className="mt-8 space-y-4 text-xl text-zinc-300">
-                  <li>Data Structures</li>
-                  <li>Algorithms</li>
-                  <li>REST APIs</li>
                   <li>OOP</li>
+                  <li>File Structures</li>
+                  <li>Algorithms</li>
                   <li>Database Design</li>
-                </ul>
+                  <li>REST APIs</li>
+                  </ul>
               </div>
 
             </div>
@@ -163,22 +163,22 @@ export default function SkillsProjects() {
 
                   <div>
                     <h3 className="text-3xl font-semibold">
-                      Project Title
+                      Poker Game Engine
                     </h3>
 
                     <p className="mt-2 text-xl text-zinc-400">
-                      Company Name • Location
+                      Ruby, GitLab
                     </p>
 
                     <p className="mt-8 max-w-3xl text-xl leading-9 text-zinc-300">
-                      Add your professional experience,
-                      responsibilities, achievements,
-                      and technologies used here.
+                      Developed a multiplayer poker hand evaluation application that implemented ranking algorithms,
+                      hand comparison logic, and automated winner determination. Built modular functions and extensive 
+                      test cases to validate all possible hand combinations while collaborating in a GitLab-based team development environment.
                     </p>
                   </div>
 
                   <p className="text-lg text-zinc-500">
-                    2024 - Present
+                   {/* 2024 - Present */}
                   </p>
 
                 </div>
@@ -190,22 +190,23 @@ export default function SkillsProjects() {
 
                   <div>
                     <h3 className="text-3xl font-semibold">
-                      Project Title
+                      Full Stack Web Application
                     </h3>
 
                     <p className="mt-2 text-xl text-zinc-400">
-                      Company Name • Location
+                      React, Node.js, Firebase
                     </p>
 
                     <p className="mt-8 max-w-3xl text-xl leading-9 text-zinc-300">
-                      Add another experience section
-                      here with your accomplishments
-                      and contributions.
+                      Built and deployed a responsive full-stack web application using React for the frontend and Node.js 
+                      for backend routing and functionality. Integrated Firebase authentication and real-time database storage 
+                      to support dynamic user-driven content while improving UI/UX through reusable components, optimized performance, 
+                      and streamlined development workflows using GitHub version control.
                     </p>
                   </div>
 
                   <p className="text-lg text-zinc-500">
-                    2022 - 2024
+                   {/* 2022 - 2024 */}
                   </p>
 
                 </div>
