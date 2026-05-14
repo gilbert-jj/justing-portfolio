@@ -18,12 +18,15 @@ className="min-h-screen bg-cover bg-right bg-no-repeat bg-zinc-100"  style={{
   <nav className="flex items-center justify-between py-8">
 
   <div className="flex gap-8 text-lg text-zinc-700">
-    <Link href="/" className="hover:text-black transition">
-      Home
-    </Link>
+    <Link
+  href="/"
+  className="border-b border-black pb-1 text-black"
+>
+  Home
+</Link>
 
-    <Link href="/skills-experience" className="hover:text-black transition">
-      Skills/Experience
+    <Link href="/skills-projects" className="hover:text-black transition">
+      Skills § Projects
     </Link>
   </div>
 </nav>
