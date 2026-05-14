@@ -81,7 +81,8 @@ className="rounded-full bg-black px-8 py-4 text-lg font-medium text-white transi
   </a>
 
 <a
-    href="/J.Gilbert_Resume_2026_NEW.pdf" download
+    href="/resume.pdf" 
+    download
       target="_blank"
 className="rounded-full border border-zinc-300 bg-white/70 px-8 py-4 text-lg font-medium text-zinc-800 transition hover:bg-white">
     My Resume
