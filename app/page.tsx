@@ -1,4 +1,5 @@
 import { Playfair_Display } from "next/font/google";
+import Link from "next/link";
 
 const playfair = Playfair_Display({
   subsets: ["latin"],
@@ -12,7 +13,22 @@ className="min-h-screen bg-cover bg-right bg-no-repeat bg-zinc-100"  style={{
     backgroundPosition: "right center",
   }}
 >
-<main className="relative z-10 flex min-h-screen w-full max-w-7xl flex-col justify-center px-24">        <div className="flex flex-col gap-8">
+<main className="relative z-10 flex min-h-screen w-full max-w-7xl flex-col justify-center px-24">      
+  
+  <nav className="flex items-center justify-between py-8">
+
+  <div className="flex gap-8 text-lg text-zinc-700">
+    <Link href="/" className="hover:text-black transition">
+      Home
+    </Link>
+
+    <Link href="/skills-experience" className="hover:text-black transition">
+      Skills/Experience
+    </Link>
+  </div>
+</nav>
+  
+    <div className="flex flex-col gap-8">
           <h1 className={`${playfair.className} max-w-4xl text-7xl font-semibold leading-tight tracking-tight text-black dark:text-zinc-50`}
 >              Justin J. Gilbert          </h1>
               <p className="max-w-2xl text-2xl leading-10 tracking-wide text-zinc-700 font-light italic">
