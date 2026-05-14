@@ -76,9 +76,17 @@ className="rounded-full bg-black px-8 py-4 text-lg font-medium text-white transi
   <a
     href="https://www.linkedin.com/in/justin-gilbert-b94a38214/"
     target="_blank"
-className="rounded-full border border-zinc-300 bg-white/70 px-8 py-4 text-lg font-medium text-zinc-800 transition hover:bg-white"  >
+    className="rounded-full bg-[#0A2342] px-8 py-4 text-lg font-medium text-white transition hover:bg-[#13315C]">    
     LinkedIn
   </a>
+
+<a
+    href="https://www.linkedin.com/in/justin-gilbert-b94a38214/"
+    target="_blank"
+className="rounded-full border border-zinc-300 bg-white/70 px-8 py-4 text-lg font-medium text-zinc-800 transition hover:bg-white">
+    My Resume
+  </a>
+
 </div>        
         
       </main>
