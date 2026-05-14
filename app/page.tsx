@@ -1,39 +1,49 @@
-import Image from "next/image";
 import { Playfair_Display } from "next/font/google";
 
 const playfair = Playfair_Display({
-  subsets: ["Latin"],
+  subsets: ["latin"],
   weight: ["400"],
 });
 export default function Home() {
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex min-h-screen w-full max-w-5xl flex-col justify-start px-8 pt-16">
-        <div className="flex flex-col gap-6">
-          <h1 className={`${playfair.className} max-w-3xl text-5xl font-semibold leading-tight tracking-tight text-black dark:text-zinc-50`}
+    <div
+className="min-h-screen bg-cover bg-right bg-no-repeat bg-zinc-100"  style={{
+    backgroundImage: "url('/MercerGrad_Desktop.png')",
+    backgroundPosition: "right center",
+  }}
+>
+<main className="relative z-10 flex min-h-screen w-full max-w-7xl flex-col justify-center px-24">        <div className="flex flex-col gap-8">
+          <h1 className={`${playfair.className} max-w-4xl text-7xl font-semibold leading-tight tracking-tight text-black dark:text-zinc-50`}
 >              Justin J. Gilbert          </h1>
-          <p className="max-w-md text-l1 leading-8 text-zinc-600 dark:text-zinc-400">
-            <br />
-            Computer Science Graduate and Information Science and Technology Minor focused on software development and problem solving.
-            <br />
-            <br />
-            Passionate about modern web development, how AI can transform workspace and production, and the future of code development.
-          </p>
-        </div>
-          <div className="flex gap-4 mt-6">
+              <p className="max-w-2xl text-2xl leading-10 tracking-wide text-zinc-700 font-light italic">
+            Computer Science Graduate with Information Science and Technology Minor- focused on software development and problem solving.
+           </p>
+           <div className="mt-2 h-[2px] w-80 bg-black rounded-full" />
+           <h2 className= "text-2xl font-semibold mt-16 mb-4">
+            About Me: </h2>
+            <p className="max-w-2xl text-xl leading-9 text-zinc-700">
+             Motivated Computer Science graduate with experience in software development, tutoring, and collaborative problem solving. Strong foundation in programming, modern development tools, and AI-assisted workflows, with a proven ability to balance rigorous academics and collegiate athletics.
+            </p>
+            <h2 className= "text-2xl font-semibold mt-16 mb-4">
+            Passions: </h2>
+            <ul className="max-w-2xl text-xl leading-9 text-zinc-700">
+  <li>Modern programming and web development</li>
+  <li>How AI can transform technical workspaces and production</li>
+  <li>The advancement of code development processes</li>
+</ul>
+            </div>
+          <div className="flex gap-4 mt-16">
   <a
     href="https://github.com/gilbert-jj"
     target="_blank"
-    className="rounded-full bg-black px-5 py-3 text-white transition hover:bg-zinc-800 dark:bg-white dark:text-black"
-  >
+className="rounded-full bg-black px-8 py-4 text-lg font-medium text-white transition hover:bg-zinc-800"  >
     GitHub
   </a>
 
   <a
     href="https://www.linkedin.com/in/justin-gilbert-b94a38214/"
     target="_blank"
-    className="rounded-full border border-zinc-400 px-5 py-3 transition hover:bg-zinc-100 dark:hover:bg-zinc-900"
-  >
+className="rounded-full border border-zinc-300 bg-white/70 px-8 py-4 text-lg font-medium text-zinc-800 transition hover:bg-white"  >
     LinkedIn
   </a>
 </div>        
