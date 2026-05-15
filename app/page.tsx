@@ -15,7 +15,7 @@ className="min-h-screen bg-cover bg-right bg-no-repeat bg-zinc-100"  style={{
 >
 <main className="relative z-10 flex min-h-screen w-full max-w-7xl flex-col justify-center px-24">      
   
-  <nav className="flex items-center justify-between py-8">
+  <nav className="relative flex items-center py-8">
 
   <div className="flex gap-8 text-lg text-zinc-700">
     <Link
@@ -29,6 +29,19 @@ className="min-h-screen bg-cover bg-right bg-no-repeat bg-zinc-100"  style={{
       Skills § Projects
     </Link>
   </div>
+
+  <div className="absolute left-1/2 flex -translate-x-1/2 items-center gap-6 text-sm text-zinc-700">
+  <a
+    href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox"
+    className="hover:text-black transition"
+  >
+    justingilbert2003@gmail.com
+  </a>
+  <p>
+    (404) 901-3576
+  </p>
+</div>
+
 </nav>
   
     <div className="flex flex-col gap-8">
