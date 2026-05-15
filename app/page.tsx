@@ -47,7 +47,7 @@ className="min-h-screen bg-cover bg-right bg-no-repeat bg-zinc-100"  style={{
             </p>
             <h2 className= "text-2xl font-semibold mt-16 mb-4">
             Passions: </h2>
-            <ul className="max-w-2xl text-xl leading-9 text-zinc-900 font-medium">
+            <ul className="max-w-2xl text-xl leading-9 text-zinc-900 font-medium list-disc pl-6">
             <li>
             <span className="bg-white/15 rounded-md">
   Modern programming and web development
