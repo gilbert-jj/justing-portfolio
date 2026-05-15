@@ -212,6 +212,34 @@ export default function SkillsProjects() {
                 </div>
               </div>
 
+              {/* Project 3 */}
+              <div className="rounded-3xl border border-white/10 bg-white/[0.03] p-10 backdrop-blur-md">
+                <div className="flex items-start justify-between">
+
+                  <div>
+                    <h3 className="text-3xl font-semibold">
+                      Portfolio Website
+                    </h3>
+
+                    <p className="mt-2 text-xl text-zinc-400">
+                      Next.js, React, Tailwind CSS, JavaScript, Responsisve Design, GitHub, Vercel
+                    </p>
+
+                    <p className="mt-8 max-w-3xl text-xl leading-9 text-zinc-300">
+                     Designed and deployed a modern responsive portfolio website using Next.js 
+                     and Tailwind CSS to showcase technical projects, software development experience, 
+                     and professional skills. Focused on clean UI/UX design, reusable component architecture, 
+                     responsive layouts, and production deployment workflows through GitHub and Vercel.
+                    </p>
+                  </div>
+
+                  <p className="text-lg text-zinc-500">
+                   {/* Present */}
+                  </p>
+
+                </div>
+              </div>
+
             </div>
           </section>
 
