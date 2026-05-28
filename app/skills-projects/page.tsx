@@ -149,7 +149,7 @@ export default function SkillsProjects() {
             <h2
               className={`${playfair.className} text-5xl`}
             >
-              Projects
+              My Projects
             </h2>
 
             <div className="mt-6 h-[1px] w-full bg-white/10" />
@@ -157,7 +157,77 @@ export default function SkillsProjects() {
             {/* PROJECT CARDS */}
             <div className="mt-14 flex flex-col gap-10">
 
-              {/* PROJECT 1 */}
+             {/* PROJECT 1 */}
+              <div className="rounded-3xl border border-white/10 bg-white/[0.03] p-10 backdrop-blur-md">
+                <div className="flex items-start justify-between">
+
+                  <div>
+                    <h3 className="text-3xl font-semibold">
+                      Comlea AI Writing Platform and Skills Builder
+                    </h3>
+
+                    <p className="mt-2 text-xl text-zinc-400">
+                      React, TypeScript, TailwindCSS, TanStack Start, Cloudflare
+                    </p>
+
+                    <p className="mt-8 max-w-3xl text-xl leading-9 text-zinc-300">
+                        Engineered and deployed a full-stack AI-assisted writing platform designed for communication
+                        and journalism students, featuring real-time draft analysis, rewrite workflows, editorial-style interfaces, 
+                        and responsive multi-page architecture. Built dynamic frontend systems including animated revision transitions, 
+                        workshop/history management, mobile-first responsive layouts, and modern newsroom-inspired UI/UX patterns while 
+                        integrating scalable AI service infrastructure and cloud deployment pipelines.
+                    </p>
+                    <a
+                    href="https://comlea.11031492.workers.dev/"
+                    className="hover:text-black transition"
+                    >
+                    link to website
+                    </a>
+                  </div>
+
+                  <p className="text-lg text-zinc-500">
+                   {/* Present */}
+                  </p>
+
+                </div>
+              </div>
+
+              {/* Project 2 */}
+              <div className="rounded-3xl border border-white/10 bg-white/[0.03] p-10 backdrop-blur-md">
+                <div className="flex items-start justify-between">
+
+                  <div>
+                    <h3 className="text-3xl font-semibold">
+                      Portfolio Website
+                    </h3>
+
+                    <p className="mt-2 text-xl text-zinc-400">
+                      Next.js, React, Tailwind CSS, JavaScript, Responsisve Design, GitHub, Vercel
+                    </p>
+
+                    <p className="mt-8 max-w-3xl text-xl leading-9 text-zinc-300">
+                     Designed and deployed a modern responsive portfolio website using Next.js 
+                     and Tailwind CSS to showcase technical projects, software development experience, 
+                     and professional skills. Focused on clean UI/UX design, reusable component architecture, 
+                     responsive layouts, and production deployment workflows through GitHub and Vercel.
+                    </p>
+                    <a
+                    href="https://justing-portfolio.vercel.app/"
+                    className="hover:text-black transition"
+                    >
+                    link to website
+                    </a>
+                  </div>
+
+                  <p className="text-lg text-zinc-500">
+                   {/* Present */}
+                  </p>
+
+                </div>
+              </div>
+            
+            
+              {/* PROJECT 3 */}
               <div className="rounded-3xl border border-white/10 bg-white/[0.03] p-10 backdrop-blur-md">
                 <div className="flex items-start justify-between">
 
@@ -184,7 +254,7 @@ export default function SkillsProjects() {
                 </div>
               </div>
 
-              {/* PROJECT 2 */}
+              {/* PROJECT 4 */}
               <div className="rounded-3xl border border-white/10 bg-white/[0.03] p-10 backdrop-blur-md">
                 <div className="flex items-start justify-between">
 
@@ -212,35 +282,7 @@ export default function SkillsProjects() {
                 </div>
               </div>
 
-              {/* Project 3 */}
-              <div className="rounded-3xl border border-white/10 bg-white/[0.03] p-10 backdrop-blur-md">
-                <div className="flex items-start justify-between">
-
-                  <div>
-                    <h3 className="text-3xl font-semibold">
-                      Portfolio Website
-                    </h3>
-
-                    <p className="mt-2 text-xl text-zinc-400">
-                      Next.js, React, Tailwind CSS, JavaScript, Responsisve Design, GitHub, Vercel
-                    </p>
-
-                    <p className="mt-8 max-w-3xl text-xl leading-9 text-zinc-300">
-                     Designed and deployed a modern responsive portfolio website using Next.js 
-                     and Tailwind CSS to showcase technical projects, software development experience, 
-                     and professional skills. Focused on clean UI/UX design, reusable component architecture, 
-                     responsive layouts, and production deployment workflows through GitHub and Vercel.
-                    </p>
-                  </div>
-
-                  <p className="text-lg text-zinc-500">
-                   {/* Present */}
-                  </p>
-
-                </div>
               </div>
-
-            </div>
           </section>
 
         </main>
