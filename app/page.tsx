@@ -55,7 +55,7 @@ className="min-h-screen bg-cover bg-right bg-no-repeat bg-zinc-100"  style={{
             About Me: </h2>
             <p className="max-w-2xl text-xl leading-9 text-zinc-900 font-medium">
              <span className= "bg-white/15 rounded-md">
-            Motivated Computer Science graduate with experience in software development, tutoring, and collaborative problem solving. Strong foundation in programming, modern development tools, and AI-assisted workflows, with a proven ability to balance rigorous academics and collegiate athletics.
+            Motivated Computer Science graduate with experience in software development and collaborative problem solving. Strong foundation in programming, modern development tools, and AI-assisted workflows, with a proven ability to balance rigorous academics and collegiate athletics.
              </span>
             </p>
             <h2 className= "text-2xl font-semibold mt-16 mb-4">
