@@ -41,7 +41,9 @@ className="min-h-screen bg-cover bg-right bg-no-repeat bg-zinc-100"  style={{
     justingilbert2003@gmail.com
   </a>
   <p>
-    (404) 901-3576
+  <a
+    href="tel: (404) 901-3576"  >
+  </a>
   </p>
 </div>
 
