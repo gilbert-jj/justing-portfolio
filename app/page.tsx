@@ -31,11 +31,14 @@ className="min-h-screen bg-cover bg-right bg-no-repeat bg-zinc-100"  style={{
   </div>
 
   <div className="absolute left-1/2 flex -translate-x-1/2 items-center gap-6 text-sm text-zinc-700">
+  <p>
+    My Contacts:
+  </p>
   <a
-    href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox"
+    href="mailto:justingilbert2003@gmail.com"
     className="hover:text-black transition"
   >
-    Contact:       justingilbert2003@gmail.com
+    justingilbert2003@gmail.com
   </a>
   <p>
     (404) 901-3576
