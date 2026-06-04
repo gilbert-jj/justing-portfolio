@@ -35,7 +35,7 @@ className="min-h-screen bg-cover bg-right bg-no-repeat bg-zinc-100"  style={{
     href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox"
     className="hover:text-black transition"
   >
-    justingilbert2003@gmail.com
+    contact: justingilbert2003@gmail.com
   </a>
   <p>
     (404) 901-3576
