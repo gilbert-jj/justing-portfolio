@@ -42,7 +42,9 @@ className="min-h-screen bg-cover bg-right bg-no-repeat bg-zinc-100"  style={{
   </a>
   <p>
   <a
-    href="tel: (404) 901-3576"  >
+    href="tel:4049013576"  
+    className="hover:text-black transition">
+      (404) 901-3576
   </a>
   </p>
 </div>
