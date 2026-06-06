@@ -198,6 +198,40 @@ export default function SkillsProjects() {
 
                   <div>
                     <h3 className="text-3xl font-semibold">
+                     Chess Engine
+                    </h3>
+
+                    <p className="mt-2 text-xl text-zinc-400">
+                    C++, Visual Studio, Object-Oriented Programming, Data Structures, Algorithms,
+                    GitHub, State Management  </p>
+
+                    <p className="mt-8 max-w-3xl text-xl leading-9 text-zinc-300">
+                    Built a C++ chess engine from scratch featuring legal move generation, board-state simulation, 
+                    check/checkmate detection, king safety enforcement, and optimized game-state evaluation. 
+                    Implemented rule validation for all chess pieces, attack detection algorithms, and move simulation 
+                    logic to prevent illegal positions while leveraging object-oriented design principles and Git-based development workflows.
+                    </p>
+                    {/* <a
+                    href="https://justing-portfolio.vercel.app/"
+                    className="hover:text-black transition"
+                    >
+                    link to website
+                    </a> */}
+                  </div>
+
+                  <p className="text-lg text-zinc-500">
+                   {/* Present */}
+                  </p>
+
+                </div>
+              </div>
+
+              {/* Project 3 */}
+              <div className="rounded-3xl border border-white/10 bg-white/[0.03] p-10 backdrop-blur-md">
+                <div className="flex items-start justify-between">
+
+                  <div>
+                    <h3 className="text-3xl font-semibold">
                       Portfolio Website
                     </h3>
 
@@ -227,7 +261,7 @@ export default function SkillsProjects() {
               </div>
             
             
-              {/* PROJECT 3 */}
+              {/* PROJECT 4 */}
               <div className="rounded-3xl border border-white/10 bg-white/[0.03] p-10 backdrop-blur-md">
                 <div className="flex items-start justify-between">
 
@@ -254,7 +288,7 @@ export default function SkillsProjects() {
                 </div>
               </div>
 
-              {/* PROJECT 4 */}
+              {/* PROJECT 5 */}
               <div className="rounded-3xl border border-white/10 bg-white/[0.03] p-10 backdrop-blur-md">
                 <div className="flex items-start justify-between">
 
