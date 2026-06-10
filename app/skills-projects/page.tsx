@@ -226,7 +226,42 @@ export default function SkillsProjects() {
                 </div>
               </div>
 
-              {/* Project 3 */}
+               {/* Project 3 */}
+              <div className="rounded-3xl border border-white/10 bg-white/[0.03] p-10 backdrop-blur-md">
+                <div className="flex items-start justify-between">
+
+                  <div>
+                    <h3 className="text-3xl font-semibold">
+                     Sudoku Solver 
+                    </h3>
+
+                    <p className="mt-2 text-xl text-zinc-400">
+                    Java, GitHub Object-Oriented, Recursion, Backtracking Algorithms,
+                    Data Structures, Problem Solving </p>
+
+                    <p className="mt-8 max-w-3xl text-xl leading-9 text-zinc-300">
+                    Built a Java Sudoku solver from scratch featuring recursive backtracking, 
+                    constraint validation, and automated puzzle completion for standard 9×9 Sudoku boards. 
+                    Implemented row, column, and 3×3 subgrid validation algorithms, state-space exploration, 
+                    and recursive search logic to efficiently identify valid solutions while leveraging 
+                    object-oriented design principles and algorithmic problem-solving techniques.
+                    </p>
+                    {/* <a
+                    href="https://justing-portfolio.vercel.app/"
+                    className="hover:text-black transition"
+                    >
+                    link to website
+                    </a> */}
+                  </div>
+
+                  <p className="text-lg text-zinc-500">
+                   {/* Present */}
+                  </p>
+
+                </div>
+              </div>
+
+              {/* Project 4 */}
               <div className="rounded-3xl border border-white/10 bg-white/[0.03] p-10 backdrop-blur-md">
                 <div className="flex items-start justify-between">
 
@@ -261,7 +296,7 @@ export default function SkillsProjects() {
               </div>
             
             
-              {/* PROJECT 4 */}
+              {/* PROJECT 5 */}
               <div className="rounded-3xl border border-white/10 bg-white/[0.03] p-10 backdrop-blur-md">
                 <div className="flex items-start justify-between">
 
@@ -288,7 +323,7 @@ export default function SkillsProjects() {
                 </div>
               </div>
 
-              {/* PROJECT 5 */}
+              {/* PROJECT 6 */}
               <div className="rounded-3xl border border-white/10 bg-white/[0.03] p-10 backdrop-blur-md">
                 <div className="flex items-start justify-between">
 
